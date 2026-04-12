@@ -1,0 +1,8 @@
+node_modules/
+bun.lockb
+.env
+.env.*
+dist/
+*.log
+.mcpregistry_registry_token
+.mcpregistry_*
