@@ -37,6 +37,51 @@ Do NOT use for single-venue rates -- use perp_get_funding_rates instead. Do NOT 
         },
         required: [],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "results": {
+              "type": "number",
+              "description": "Number of arb opportunities found"
+            },
+            "venuesOnline": {
+              "type": "number",
+              "description": "Number of exchanges online"
+            },
+            "totalAssetsScanned": {
+              "type": "number",
+              "description": "Total assets scanned"
+            },
+            "symbolFilter": {
+              "type": "string",
+              "description": "Symbol filter applied"
+            },
+            "bestOpportunity": {
+              "type": "object",
+              "properties": {
+                "asset": {
+                  "type": "string"
+                },
+                "annualizedYield": {
+                  "type": "string"
+                },
+                "direction": {
+                  "type": "string"
+                }
+              }
+            },
+            "opportunities": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            }
+          },
+          "required": [
+            "results",
+            "opportunities"
+          ]
+        },
     },
   ],
 };
