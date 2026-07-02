@@ -3,7 +3,7 @@
   "name": "io.github.Br0ski777/funding-arb",
   "title": "Funding Rate Arbitrage Scanner API",
   "description": "Cross-venue perp funding rate arb \u2014 Hyperliquid, Binance, Bybit, OKX spreads. x402.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://github.com/Br0ski777/funding-arb-x402",
   "repository": {
     "url": "https://github.com/Br0ski777/funding-arb-x402",
