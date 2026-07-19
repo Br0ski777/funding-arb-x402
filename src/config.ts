@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "GET",
       path: "/api/scan",
-      price: "$0.005",
+      price: "$0.012",
       description: "Scan funding rate arbitrage opportunities across perpetual exchanges",
       toolName: "perp_scan_funding_arbitrage",
       toolDescription: `Use this when you need to find funding rate arbitrage opportunities across perpetual exchanges. Returns cross-venue spreads in JSON.
