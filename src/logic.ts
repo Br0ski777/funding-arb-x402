@@ -270,7 +270,7 @@ async function scanFundingArbitrage(symbolFilter?: string): Promise<{
 
 export function registerRoutes(app: Hono) {
   app.get("/api/scan", async (c) => {
-    await tryRequirePayment(0.005);
+    await tryRequirePayment(0.002);
     const symbol = c.req.query("symbol") || undefined;
 
     try {
