@@ -35,7 +35,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `perp_scan_funding_arbitrage` | GET | `/api/scan` | $0.012 | Scan funding rate arbitrage opportunities across perpetual exchanges |
+| `perp_scan_funding_arbitrage` | GET | `/api/scan` | $0.002 | Scan funding rate arbitrage opportunities across perpetual exchanges |
 
 ### `perp_scan_funding_arbitrage`
 
